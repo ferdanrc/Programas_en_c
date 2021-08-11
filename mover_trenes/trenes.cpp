@@ -6,6 +6,8 @@
 #include <time.h>
 #include <stdbool.h>
 
+//#include <iostream>
+//using namespace std;
 
 //	Simulación de la Pista
 //   /----HHHHHHH-------------HHHHHHH-------------HHHHHHH----\
@@ -474,6 +476,8 @@ int main() {
 	char movs;
 	int i,j;
 	
+	//cout << "Hola mundo";
+
 	nombre[0]=strdup("estacion1");
 	nombre[1]=strdup("tramo1");
 	nombre[2]=strdup("estacion2");
