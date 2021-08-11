@@ -27,6 +27,8 @@ Instalación de extensiones c/c++,gcc, compilacion y ejecución de programas:
 ### Funcionamiento
 
 5-agosto-2021: mover_trenes.cpp: Programa en c/c++ que mueve trenes en una pista sin que colisionen. 
+10-agosto-2021: Hola_mundo.cpp: Programa para probar la configuracion de VS Code. 
+10-agosto-2021: operaciones_aritmeticas.cpp: Programa que realiza operaciones basicas con dos numeros. 
 
 *** IMPORTANTE ***
 
