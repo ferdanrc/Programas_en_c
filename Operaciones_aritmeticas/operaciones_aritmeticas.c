@@ -3,12 +3,14 @@
  * 
  * Por Fernando Daniel Ramirez Cruz
  * 10 de agosto de 2021
+ * 
+ * Modificaciones
+ * 12 de agosto de 2021 por Fernando Daniel Ramirez
 */
 
 // Librerias
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+
 
 int main( ) {
     
@@ -28,7 +30,7 @@ int main( ) {
         printf("(e): Salir\n");
         printf("Su opcion (escriba una letra ej. s para suma): "); // Mensaje para pedir que el usuario ingrese una opcion
 
-        scanf("%c",&opcion); // El usuario ingresa una letra
+        scanf("%s",&opcion); // El usuario ingresa una letra
                 
         // Se revisa si el caracter fue para seleccionar una operacion aritmetica
         if(opcion == 's' || opcion == 'r' || opcion == 'm' || opcion == 'd')
@@ -43,12 +45,15 @@ int main( ) {
         switch(opcion) // Este switch-case realiza la operacion matematica correspondiente a la seleccionada
         {
             case 's': // Realiza la suma
+                printf("\nSe realizara la suma\n");
                 resultado = num1 + num2; 
             break;
             case 'r': // Realiza la resta
+                printf("\nSe realizara la resta\n");
                 resultado = num1 - num2;
             break;
             case 'm': // Realiza la multiplicacion
+                printf("\nSe realizara la multiplicacion\n");
                 resultado = num1 * num2;
             break;
             case 'd': // Realiza la division
@@ -59,6 +64,7 @@ int main( ) {
                 else
                 {
                     // En caso de ser posible la realizacion de la division, se realiza la operacion
+                    printf("\nSe realizara la division\n");
                     resultado = num1 / num2;
                 }
             break;
@@ -78,7 +84,7 @@ int main( ) {
         
         printf("\n");
 
-        getchar(); // Esta funcion es para limpiar la entrada del usuario, en caso de que haya basura por leer
+
     }while(opcion != 'e'); // Revisa si el usuario eligio salir, de lo contrario, repite el programa
     
     return 0;
