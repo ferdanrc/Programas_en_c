@@ -14,13 +14,7 @@
 
 ### Guias
 
-Instalación de máquina virtual VirtualBox: 
-
-Instalación de Ubuntu: 
-
-Instalación de Visual: 
-
-Instalación de extensiones c/c++,gcc, compilacion y ejecución de programas:
+https://edu.codigoiot.com/course/view.php?id=834
 
 ----------------------------------------------------------------------------------------------------
 
